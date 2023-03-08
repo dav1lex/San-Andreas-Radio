@@ -17,8 +17,8 @@ export function Radio({current}) {
     }
 
     return (
-        <div className='h-auto w-auto flex justify-center'>
-            <img src={findImage()} className='w-auto h-auto'/>
+        <div>
+            <img src={findImage()} className='w-full h-auto'/>
         </div>
     )
 }
