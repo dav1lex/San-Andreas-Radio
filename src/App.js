@@ -13,26 +13,34 @@ function App() {
     }
 
     return (
-        <div className='w-screen h-fit bg-green-900 '>
-            <div className='bg-yellow-400'>
+        <>
+            <div className='bg-black h-[10vh] flex flex-col items-center justify-center'>
                 <Topbar/>
             </div>
 
-            <div className='flex flex-col items-center bg-red-900 '>
-                <div className='grow w-2/3 max-w-2xl '>
-                    {/*big image*/}
-                    <Radio current={radioindex}/>
+            <div className='w-screen h-[80vh]  flex'>
+
+                <div
+                    className='w-[60vw]  bg-black flex justify-center items-center'>
+                    <div className='w-full  flex justify-center'>
+                        <Radio current={radioindex}/>
+                    </div>
                 </div>
-                <div className='w-full h-1/6 overflow-y-scroll '>
-                    {/*selector*/}
-                    <RadioSelector setradioindex={changeindex}/>
+
+                <div className='w-[40vw] bg-black flex justify-center items-center bg-black'>
+                    <div className='w-[40vw]'>
+                        <RadioSelector setradioindex={changeindex}/>
+                    </div>
                 </div>
+
+
             </div>
-            <div className='grow'>
+            <div className='h-[10vh]'>
                 <Player radioindex={radioindex} setradioindex={changeindex}/>
             </div>
-        </div>
-    );
+        </>
+    )
+        ;
 }
 
 export default App;
