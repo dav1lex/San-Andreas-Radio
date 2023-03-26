@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/San-Andreas-Radio/static/css/main.4a09d3c3.css",
+    "main.js": "/San-Andreas-Radio/static/js/main.ab50850f.js",
+    "static/media/Diploma.woff": "/San-Andreas-Radio/static/media/Diploma.f849b0519b62e034acb2.woff",
+    "index.html": "/San-Andreas-Radio/index.html",
+    "main.4a09d3c3.css.map": "/San-Andreas-Radio/static/css/main.4a09d3c3.css.map",
+    "main.ab50850f.js.map": "/San-Andreas-Radio/static/js/main.ab50850f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a09d3c3.css",
+    "static/js/main.ab50850f.js"
+  ]
+}
